@@ -16,12 +16,12 @@ print(value2)
 
 # this is json that looks a bit like a Python dictionary but is a string
 
-data2 = '''{"key": "smalue1", "key2": "smalue2"}'''
+data2 = '''{"key1": "smalue1", "key2": "smalue2"}'''
 
 # this is a fairly crude way of finding the information from json that we
 # need - a better solution is below
-smalue1 = data2[9:16]
-smalue2 = data2[28:35]
+smalue1 = data2[10:17]
+smalue2 = data2[29:36]
 print(smalue1)
 print(smalue2)
 
